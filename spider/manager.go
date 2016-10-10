@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btlike/crawl/utils"
-	"github.com/btlike/spider"
+	"github.com/btsay/crawl/utils"
+	"github.com/btsay/spider"
 )
 
 //const

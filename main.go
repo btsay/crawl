@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/btlike/crawl/spider"
-	"github.com/btlike/crawl/utils"
+	"github.com/btsay/crawl/spider"
+	"github.com/btsay/crawl/utils"
 	_ "github.com/go-sql-driver/mysql"
 )
 

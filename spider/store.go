@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btlike/crawl/utils"
-	"github.com/btlike/repository"
+	"github.com/btsay/crawl/utils"
+	"github.com/btsay/repository"
 )
 
 type files []repository.File

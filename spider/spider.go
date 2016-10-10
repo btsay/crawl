@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/btlike/crawl/utils"
-	"github.com/btlike/spider"
+	"github.com/btsay/crawl/utils"
+	"github.com/btsay/spider"
 )
 
 //Run the spider

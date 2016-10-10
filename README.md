@@ -1,5 +1,5 @@
 ## DHT爬虫服务
-[![Build Status](https://drone.io/github.com/btlike/crawl/status.png)](https://drone.io/github.com/btlike/crawl/latest)
+[![Build Status](https://drone.io/github.com/btsay/crawl/status.png)](https://drone.io/github.com/btsay/crawl/latest)
 
 
 基于底层爬虫库，进行infohash去重并存储。如果是announce_peer请求，尝试从DHT网络(BEP0009)获取资源并存储。
@@ -14,7 +14,7 @@
 
 
 ## 安装
-`go get github.com/btlike/crawl`
+`go get github.com/btsay/crawl`
 
 
 
@@ -35,7 +35,7 @@
 
 ## 示例
 
-配置从DHT网络获取资源，这部分每天就可获取数十上百万资源，通过[storage](http://github.com/btlike/storage)从种子库还能获取等数资源。
+配置从DHT网络获取资源，这部分每天就可获取数十上百万资源，通过[storage](http://github.com/btsay/storage)从种子库还能获取等数资源。
 
 ```
 2016/08/10 13:37:20 manager.go:84: 从DHT网络获取资源数量(BEP9): 4811
